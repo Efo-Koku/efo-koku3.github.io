@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link type="text/css" rel="stylesheet" href="./resources/css/index.css"/>
+</head>
+<body>
+    <h1 id="title">Brazilian Jiu Jitsu Survey Form</h1>
+    <p id="description">Your time is appreciated!</p>
+
+    <form id="survey-form" action="index.html">
+       
+        <div>
+        <label id="name-label" for="name">Name</label>
+        <br>
+         <input id="name" type="text" name="full name" placeholder="Enter your full name"required>
+    </div>
+
+    <br>
+    <div >
+        <label  for="email" id="email-label">Email</label>
+        <br>
+        <input id="email" type="email" name="email" placeholder="Enter a valid email adress" required> 
+    </div>
+        
+    <br>
+    <br>
+    <div>
+        <label id="number-label" for="number">Number</label>
+        <br>
+        <input id="number" type="number" min="0" max="9" placeholder="Enter your phone number" required>
+    </div>
+        
+    <br>
+        <br>
+       
+        <div>
+           How long have you been doing Brazilian Jiu Jitsu?
+           <br>
+           <select id="dropdown" name="duration" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value = "1">0-1yr</option>
+               <option value = "2">1yr-2yrs</option>
+               <option value = "3">2yrs-3yrs</option>
+                <option value = "4">3yrs-4yrs</option>
+                <option value = "5">4yrs-5yrs</option>
+                <option value = "6">5yrs+</option>
+            </select>
+        </div>
+
+            <div>
+                <p>What belt colour are you?</p>
+                <select id="dropdown2" name="Select an option" required>
+                    <option class="options1" disabled selected value>Select an option</option>
+                    <option value="White">White</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Purple">Purple</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Black">Black</option>
+                </select>
+             </div>
+
+            
+             <div id="form-group">
+                <p>Would you recommend Brazilian Jiu-Jitsu to a friend?</p>
+            
+                <label for="label1"><input name="user-recommend" value="Absolutely" type="radio" id="label1" required>Absolutely</label>
+                <br> 
+
+                <label for="label2"> <input name="user-recommend" value="Perhaps" type="radio" id="label2" required>Perhaps</label>
+                <br>
+
+                <label for="label3"><input name="user-recommend" value="No" type="radio" id="label3" required>No</label>
+                <br>
+                
+                
+                </div>
+
+                <br>
+                <br>
+
+
+             <div id="form-group">
+        
+            
+                <label for="label1"><input name="user-recommend" value="Absolutely" type="checkbox" id="label1" required>Absolutely</label>
+                <br> 
+
+                <label for="label2"> <input name="user-recommend" value="Perhaps" type="checkbox" id="label2" required>Perhaps</label>
+                <br>
+
+                <label for="label3"><input name="user-recommend" value="No" type="checkbox" id="label3" required>No</label>
+                <br>
+                
+                
+                </div>
+
+            <div>
+                <p>Anything else to add?</p>
+                <textarea id="textarea" cols="81" rows="12" name="textarea" placeholder="Enter your comments here..." required></textarea>
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <button id="submit" type="text" name= "Submit">Submit</button>
+            </div>
+        </form>
+</body>
+<br>
+<footer>&copy; 2019 Web Design by Efo-Koku Avornyo</footer>
+</html>

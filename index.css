@@ -1,0 +1,126 @@
+body {
+    background: url("../images/CoFDjp.jpg");
+    background-size: cover;
+    height: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+h1{
+    color: rgb(143, 245, 149);
+    text-align: center;
+    text-decoration: underline;
+}
+
+#name{
+    height: 30px;
+    width:425px;
+    text-align: left;
+    position: relative;
+    left: 2px;
+
+}
+
+#description{
+    color: rgb(143, 245, 149);
+    text-align: center;
+    font-style: italic;
+}
+
+#survey-form{
+    color: rgb(143, 245, 149);
+    text-align:left;
+    position:relative;
+    left:413px;
+}
+
+
+#email{
+    color: rgb(143, 245, 149);
+    text-align:left;
+    height: 30px;
+    width:425px;
+    position:relative;
+    left:2px;
+}
+
+
+#number{
+    color: rgb(143, 245, 149);
+    text-align:left; 
+    height:30px;
+    width:425px;
+    position:relative;
+    left:2px;
+}
+
+
+#dropdown{
+    color: grey;
+    height: 40px;
+    width: 429px;
+    
+}
+
+#dropdown2{
+    color: grey;
+    height: 40px;
+    width: 429px; 
+   
+}
+
+.form-group{
+    color:rgb(143, 245, 149);
+    text-align: center;
+    
+}
+
+#Absolutely{
+  position: relative;
+  right: 588px;
+}
+
+
+#Perhaps{
+    position: relative;
+    right: 598px;
+    
+    }
+
+
+#No{
+    position: relative;
+    right: 613px;
+}
+
+input:required:invalid{
+    text-decoration: 2px red;
+}
+
+input:required:valid{
+    text-decoration: 2px solid black;
+}
+
+#submit{
+    text-align: center;
+    height:30px;
+    width:430px;
+    background-color: yellow;
+    cursor:pointer;
+  }
+
+
+p{
+    text-align: left;
+    color:rgb(143, 245, 149);
+}
+
+footer{
+    color:white;
+    text-align: center;
+  
+}
+
+
